@@ -4,6 +4,7 @@ Licht = 0
 def on_button_a():
     global manuel
     if manuel == 1:
+        global Licht
         if Licht == 1:
             basic.turn_rgb_led_off()
             Licht = 0

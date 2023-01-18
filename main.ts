@@ -1,9 +1,9 @@
 let manuel = 0
 let Licht = 0
 input.onButtonEvent(Button.A, input.buttonEventClick(), function on_button_a() {
-    let Licht: number;
     
     if (manuel == 1) {
+        
         if (Licht == 1) {
             basic.turnRgbLedOff()
             Licht = 0
